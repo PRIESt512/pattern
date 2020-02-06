@@ -3,13 +3,13 @@ package ru.hacker.builder;
 public class NutritionFactsWithBuilder {
 
     private int servingSize; //(мл в порции) Необходим
-    private int servings;  //(количество порций)Необходим
+    private int servings;  //(количество порций) Необходим
     private int calories; //(калорий в порции) Необязателен
     private int fat; //(жиров в порции) Необязателен
     private int sodium; //(Na в порции) Необязателен
-    private int carbohydrate;  //(углеводы в порции)Необязателен
+    private int carbohydrate;  //(углеводы в порции) Необязателен
 
-    public NutritionFactsWithBuilder(Builder builder) {
+    private NutritionFactsWithBuilder(Builder builder) {
         this.servingSize = builder.servingSize;
         this.servings = builder.servings;
         this.calories = builder.calories;
@@ -23,7 +23,8 @@ public class NutritionFactsWithBuilder {
         private final int servingSize;
         private final int servings;
 
-        // Необязательные параметры — инициализированы // значениями по умолчанию
+        // Необязательные параметры — инициализированы
+        // значениями по умолчанию
         private int calories = 0;
         private int fat = 0;
         private int sodium = 0;
