@@ -13,6 +13,7 @@ public class TestSingletonLazy {
 
     public static TestSingletonLazy getInstance() {
         if (INSTANCE == null) {
+            //мы что-то делаем! выбираем данные для этого объекта
             INSTANCE = new TestSingletonLazy();
             return INSTANCE;
         }

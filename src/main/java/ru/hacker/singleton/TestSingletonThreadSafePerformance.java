@@ -11,6 +11,7 @@ public class TestSingletonThreadSafePerformance {
     }
 
     private static TestSingletonThreadSafePerformance computedValue() {
+        //прочитать с диска
         return new TestSingletonThreadSafePerformance();
     }
 
