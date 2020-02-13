@@ -1,7 +1,5 @@
 package ru.hacker.abstractfabric.checkbox;
 
-import ru.hacker.abstractfabric.checkbox.Checkbox;
-
 /**
  * Все семейства продуктов имеют одинаковые вариации (MacOS/Windows).
  * <p>

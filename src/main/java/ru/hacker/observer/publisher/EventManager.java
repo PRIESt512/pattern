@@ -8,6 +8,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Ядро системы, занимается уведомлением всех своих подписчиков
+ */
 public class EventManager {
     Map<String, List<EventListener>> listeners = new HashMap<>();
 

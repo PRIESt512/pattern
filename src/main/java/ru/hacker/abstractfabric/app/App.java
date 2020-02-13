@@ -12,7 +12,7 @@ public class App {
     private Button button;
     private Checkbox checkbox;
 
-    public App(GUIFactory factory) {
+    public App(GUIFactory factory) {// либо фабрика Windows, либо фабрика MacOS
         button = factory.createButton();
         checkbox = factory.createCheckbox();
     }

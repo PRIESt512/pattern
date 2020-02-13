@@ -1,4 +1,4 @@
-package ru.hacker.factorym;
+package ru.hacker.factorym.product;
 
 /**
  * Интерфейс, который описывает сущность
